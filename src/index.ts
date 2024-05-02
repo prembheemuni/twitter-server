@@ -7,4 +7,4 @@ async function init() {
 
 init()
   .then(() => console.log("no error"))
-  .catch((e) => console.log("opl"));
+  .catch((e) => console.log("opl", e));
